@@ -98,8 +98,22 @@ uvicorn app:app --reload
 ```bash
 streamlit run dashboard.py
 ```
+## 📸 Screenshots
 
----
+### 🏠 Dashboard
+![Dashboard](ouputs/dashboard.png)
+
+### 📊 Complaints Overview
+![Complaints Overview](outputs/complaints overview.png)
+
+### 🔍 Complaint Prediction
+![Complaint Prediction](outputs/complaint prediction.png)
+
+### 🔝 Top Complaints Analysis
+![Top Complaints](outputs/Top complaints.png)
+
+### ⚡ API Interface
+![API](outputs/API.png)
 
 ## 📈 Results
 
