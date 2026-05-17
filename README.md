@@ -104,13 +104,13 @@ streamlit run dashboard.py
 ![Dashboard](outputs/dashboard.png)
 
 ### 📊 Complaints Overview
-![Complaints Overview](outputs/complaints overview.png)
+![Complaints Overview](outputs/complaints_overview.png)
 
 ### 🔍 Complaint Prediction
-![Complaint Prediction](outputs/complaint prediction.png)
+![Complaint Prediction](outputs/complaint_prediction.png)
 
 ### 🔝 Top Complaints Analysis
-![Top Complaints](outputs/Top complaints.png)
+![Top Complaints](outputs/Top_complaints.png)
 
 ### ⚡ API Interface
 ![API](outputs/API.png)
