@@ -1,68 +1,119 @@
-# AI Grievance System (NYC 311 NLP Project)
+# 🚀 AI-Driven Citizen Grievance & Sentiment Analysis System
 
-## 📌 Project Overview
-This project is an AI-powered grievance classification system developed using Natural Language Processing (NLP) and Machine Learning techniques.
+## 🌟 Overview
 
-The system automatically analyzes citizen complaints from the NYC 311 dataset and routes them to the appropriate government department such as Police, Transport, Water Department, or Road Maintenance.
+The **AI-Driven Citizen Grievance & Sentiment Analysis System** is an end-to-end AI-powered platform designed to automate the analysis of citizen complaints using **Machine Learning and Natural Language Processing (NLP)**.
 
----
-
-## 🎯 Objectives
-- Automate complaint routing
-- Reduce manual workload
-- Improve grievance management efficiency
-- Perform intelligent text classification using NLP
+It intelligently classifies grievances, detects sentiment, and provides interactive insights through dashboards. This system helps government and civic organizations improve response time, transparency, and decision-making efficiency.
 
 ---
 
-## 🧠 Features
-- Text preprocessing and cleaning
-- Stopword removal and lemmatization
-- TF-IDF vectorization
-- Logistic Regression classification model
-- Department categorization
-- Cross-validation evaluation
-- Confusion matrix visualization
-- Complaint prediction system
+## 🎯 Problem Statement
+
+Traditional grievance systems rely heavily on manual processing, leading to:
+- Slow response times
+- Unstructured complaint handling
+- Difficulty in analyzing large datasets
+- Lack of actionable insights
 
 ---
 
-## 🛠 Tech Stack
-- Python
-- Pandas
-- NumPy
-- NLTK
-- Scikit-learn
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## 💡 Proposed Solution
+
+This system leverages AI to:
+- Automatically classify complaints into categories
+- Analyze sentiment (Positive / Negative / Neutral)
+- Extract insights from large-scale grievance datasets
+- Visualize trends using dashboards
 
 ---
 
-## 📊 Dataset
-NYC 311 Service Requests Dataset from Kaggle
+## ⚙️ Key Features
+
+✔ Automated grievance classification  
+✔ Sentiment analysis using NLP  
+✔ Data preprocessing & cleaning  
+✔ Feature extraction using TF-IDF  
+✔ Machine learning model training  
+✔ Interactive dashboard (Streamlit)  
+✔ FastAPI backend for predictions  
+✔ Data visualization (Matplotlib/Seaborn)  
 
 ---
 
-## 📁 Project Structure
+## 🧠 Tech Stack
 
-```text
-ai-grievance-system/
+**Languages:**  
+- Python  
+
+**Libraries:**  
+- Pandas, NumPy  
+- Scikit-learn  
+- NLTK  
+- Matplotlib, Seaborn  
+
+**Frameworks:**  
+- FastAPI  
+- Streamlit  
+
+---
+
+## 📂 Project Structure
+AI-Grievance-System/
 │
 ├── data/
-│   └── nyc311.csv
-│
-├── notebooks/
-│   ├── week1_nyc311_eda.ipynb
-│   └── week2_model.ipynb
-│
 ├── models/
-│   ├── complaint_classifier.pkl
-│   └── tfidf_vectorizer.pkl
-│
+├── notebooks/
 ├── outputs/
-├── plots/
 ├── src/
-│   └── preprocessing.py
-│
-├── README.md
+├── app.py
+├── dashboard.py
+├── requirements.txt
+└── README.md
+
+---
+
+## 📊 Workflow
+
+1. Data Collection (NYC 311 Dataset)
+2. Data Cleaning & Preprocessing
+3. Feature Engineering (TF-IDF)
+4. Model Training (ML Algorithms)
+5. Sentiment Analysis
+6. Dashboard Visualization
+7. API Deployment using FastAPI
+
+## 🚀 How to Run Locally
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### Run API
+```bash
+uvicorn app:app --reload
+```
+
+### Run Dashboard
+```bash
+streamlit run dashboard.py
+```
+
+---
+
+## 📈 Results
+
+- Accurate grievance classification
+- Sentiment-based insights
+- Faster complaint analysis
+- Interactive visualization dashboards
+
+---
+
+## 🔮 Future Enhancements
+
+- Real-time grievance tracking system
+- Multi-language support
+- Deep learning model integration
+- Mobile application version
+
