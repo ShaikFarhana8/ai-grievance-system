@@ -101,7 +101,7 @@ streamlit run dashboard.py
 ## 📸 Screenshots
 
 ### 🏠 Dashboard
-![Dashboard](ouputs/dashboard.png)
+![Dashboard](outputs/dashboard.png)
 
 ### 📊 Complaints Overview
 ![Complaints Overview](outputs/complaints overview.png)
